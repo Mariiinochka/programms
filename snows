@@ -1,0 +1,11 @@
+import random
+
+print('Hi, i want to show for you snow')
+print('If you want to stop, tap "Ctrl+Shift+B"')
+
+while True:
+	snows_list = ['***********', '* * * * * *', " * * *** **", "**  **  ** "]
+	random.shuffle(snows_list)
+	for snow in snows_list:
+		print(snow)
+
